@@ -1,0 +1,12 @@
+<div class="container mt-4 mb-4 text-center">
+  <div class="row">
+    <div class="text-bg-secondary mt-2 mb-4">
+      <h4 class="text-center mt-2">Tarea de Clase S14</h4>
+      <p class="pt-4 pb-2 ps-2">{{textoPadre}}</p>
+      <div class="col col-sm-4 mb-3 mx-auto">
+        <input [(ngModel)]="textoRecibido" type="text" class="form-control text-center">
+      </div>
+      <app-hijo1 [texto]="textoRecibido"></app-hijo1>
+    </div>
+  </div>
+</div>
